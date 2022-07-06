@@ -1,0 +1,6 @@
+@use "foo";
+
+.bar {
+  @extend .foo;
+  border: 1px solid black;
+}

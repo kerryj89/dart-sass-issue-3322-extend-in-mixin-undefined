@@ -1,0 +1,6 @@
+@use "foo";
+
+.baz {
+  @extend .foo;
+  border: 1px solid green;
+}

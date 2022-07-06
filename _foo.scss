@@ -1,0 +1,14 @@
+@use "colors";
+
+@mixin does-not-work {
+    .foo {
+      @extend %background-white;
+      padding: 20px;
+    }
+}
+
+//Works without mixin
+//.foo {
+//  @extend %background-white;
+//  padding: 20px;
+//}
